@@ -1,0 +1,13 @@
+# Environments
+venv/
+env/
+__pycache__/
+
+# Datasets and local DBs
+*.csv
+!models/shap_background.csv
+flagged_applications.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
